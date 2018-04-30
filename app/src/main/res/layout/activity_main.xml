@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background_pup">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Color Math"
+            android:textStyle="bold"
+            android:textColor="#ffee00"
+            android:textSize="80sp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-smallcaps" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Trainning your brain -"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:gravity="center_horizontal"
+            android:fontFamily="sans-serif-smallcaps" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon_info_2"
+            android:background="@drawable/button_info"
+            android:id="@+id/ImageButtonInfo"
+            />
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/button_play"
+            android:src="@drawable/icon_play_2"
+            android:layout_marginHorizontal="30dp"
+            android:id="@+id/ImageButtonPlay"
+          />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon_exit_2"
+            android:background="@drawable/button_exit"
+            android:id="@+id/ImageButtonExit"
+           />
+    </LinearLayout>
+</LinearLayout>
